@@ -1,0 +1,19 @@
+{
+  "kind": "singleType",
+  "collectionName": "telephones",
+  "info": {
+    "singularName": "telephone",
+    "pluralName": "telephones",
+    "displayName": "Numer telefonu"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "Numer_Telefonu": {
+      "type": "string",
+      "required": true
+    }
+  }
+}

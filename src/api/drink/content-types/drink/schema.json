@@ -1,0 +1,29 @@
+{
+  "kind": "collectionType",
+  "collectionName": "drinks",
+  "info": {
+    "singularName": "drink",
+    "pluralName": "drinks",
+    "displayName": "Napoje"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "Pozycja": {
+      "type": "integer",
+      "unique": true,
+      "min": 1,
+      "required": true
+    },
+    "Nazwa": {
+      "type": "string",
+      "required": true
+    },
+    "Cena": {
+      "type": "decimal",
+      "required": true
+    }
+  }
+}

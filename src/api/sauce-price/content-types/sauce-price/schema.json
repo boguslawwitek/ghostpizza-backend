@@ -1,0 +1,19 @@
+{
+  "kind": "singleType",
+  "collectionName": "sauce_prices",
+  "info": {
+    "singularName": "sauce-price",
+    "pluralName": "sauce-prices",
+    "displayName": "Cena sosu"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "Cena": {
+      "type": "decimal",
+      "required": true
+    }
+  }
+}

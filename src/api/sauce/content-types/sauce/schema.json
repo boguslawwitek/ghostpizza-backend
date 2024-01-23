@@ -1,0 +1,30 @@
+{
+  "kind": "collectionType",
+  "collectionName": "sauces",
+  "info": {
+    "singularName": "sauce",
+    "pluralName": "sauces",
+    "displayName": "Sosy",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "Pozycja": {
+      "type": "integer",
+      "unique": true,
+      "required": true,
+      "min": 1
+    },
+    "Nazwa": {
+      "type": "string",
+      "required": true
+    },
+    "Ostrosc": {
+      "min": 1,
+      "type": "integer"
+    }
+  }
+}

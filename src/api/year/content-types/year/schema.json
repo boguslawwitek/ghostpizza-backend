@@ -1,0 +1,21 @@
+{
+  "kind": "singleType",
+  "collectionName": "years",
+  "info": {
+    "singularName": "year",
+    "pluralName": "years",
+    "displayName": "Rok w stopce",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "Rok": {
+      "type": "integer",
+      "required": true,
+      "default": 2024
+    }
+  }
+}

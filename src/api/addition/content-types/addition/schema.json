@@ -1,0 +1,38 @@
+{
+  "kind": "collectionType",
+  "collectionName": "additions",
+  "info": {
+    "singularName": "addition",
+    "pluralName": "additions",
+    "displayName": "Dodatki",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "Nazwa": {
+      "type": "string",
+      "required": true
+    },
+    "Cena_Mala": {
+      "type": "decimal",
+      "required": true
+    },
+    "Cena_Srednia": {
+      "type": "decimal",
+      "required": true
+    },
+    "Cena_Duza": {
+      "type": "decimal",
+      "required": true
+    },
+    "Pozycja": {
+      "type": "integer",
+      "required": true,
+      "unique": true,
+      "min": 1
+    }
+  }
+}

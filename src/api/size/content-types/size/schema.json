@@ -1,0 +1,27 @@
+{
+  "kind": "singleType",
+  "collectionName": "sizes",
+  "info": {
+    "singularName": "size",
+    "pluralName": "sizes",
+    "displayName": "Rozmiary"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "Mala": {
+      "type": "string",
+      "required": true
+    },
+    "Srednia": {
+      "type": "string",
+      "required": true
+    },
+    "Duza": {
+      "type": "string",
+      "required": true
+    }
+  }
+}

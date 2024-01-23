@@ -1,0 +1,38 @@
+{
+  "kind": "singleType",
+  "collectionName": "opening_hourss",
+  "info": {
+    "singularName": "opening-hours",
+    "pluralName": "opening-hourss",
+    "displayName": "Godziny otwarcia"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "Poniedzialek": {
+      "type": "string",
+      "required": false
+    },
+    "Wtorek": {
+      "type": "string"
+    },
+    "Sroda": {
+      "type": "string",
+      "required": false
+    },
+    "Czwartek": {
+      "type": "string"
+    },
+    "Piatek": {
+      "type": "string"
+    },
+    "Sobota": {
+      "type": "string"
+    },
+    "Niedziela": {
+      "type": "string"
+    }
+  }
+}

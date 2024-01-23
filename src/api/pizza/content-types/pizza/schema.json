@@ -1,0 +1,47 @@
+{
+  "kind": "collectionType",
+  "collectionName": "pizzas",
+  "info": {
+    "singularName": "pizza",
+    "pluralName": "pizzas",
+    "displayName": "Pizza",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "Nazwa": {
+      "type": "string",
+      "required": true
+    },
+    "Skladniki": {
+      "type": "text",
+      "required": true
+    },
+    "Cena_Mala": {
+      "type": "decimal",
+      "required": false
+    },
+    "Cena_Srednia": {
+      "type": "decimal",
+      "required": false
+    },
+    "Cena_Duza": {
+      "type": "decimal",
+      "required": false
+    },
+    "Ostrosc": {
+      "type": "integer",
+      "required": false,
+      "min": 1
+    },
+    "Pozycja": {
+      "type": "integer",
+      "min": 1,
+      "required": true,
+      "unique": true
+    }
+  }
+}
